@@ -23,6 +23,10 @@ class MainActivity : AppCompatActivity() {
                 boton1.setBackgroundColor(Color.parseColor("#F01C03"))
                 boton1.setText("Soy Rojo")
             }
+            else if(boton1.text != "Soy Verde"){
+                boton1.setBackgroundColor(Color.parseColor("#0CD843"))
+                boton1.setText("Soy Verde")
+            }
             else{
                 boton1.setBackgroundColor(Color.parseColor("#E2F003"))
                 boton1.setText("Soy Amarillo")
